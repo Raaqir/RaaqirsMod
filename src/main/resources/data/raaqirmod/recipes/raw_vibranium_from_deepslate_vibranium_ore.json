@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "raaqirmod:deepslate_vibranium_ore"
+    },
+    "result": "raaqirmod:raw_vibranium",
+    "experience": 1,
+    "cookingtime": 200
+}

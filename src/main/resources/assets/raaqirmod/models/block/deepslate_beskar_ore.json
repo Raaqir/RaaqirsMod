@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "raaqirmod:block/deepslate_beskar_ore"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "raaqirmod:vibranium_block",
+    "raaqirmod:vibranium_ore",
+    "raaqirmod:deepslate_vibranium_ore",
+    "raaqirmod:uru_ore",
+    "raaqirmod:nether_uru_ore",
+    "raaqirmod:deepslate_uru_ore",
+    "raaqirmod:beskar_ore",
+    "raaqirmod:nether_beskar_ore",
+    "raaqirmod:deepslate_beskar_ore"
+    ]
+}

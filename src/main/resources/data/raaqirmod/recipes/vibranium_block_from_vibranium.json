@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "raaqirmod:vibranium"
+        }
+    },
+    "result": {
+        "item": "raaqirmod:vibranium_block",
+        "count": 1
+    }
+}

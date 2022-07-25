@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "raaqirmod:vibranium_block"
+        }
+    ],
+    "result": {
+        "item": "raaqirmod:vibranium",
+        "count": 9
+    }
+}
