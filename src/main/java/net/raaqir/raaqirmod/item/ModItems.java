@@ -5,6 +5,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
+import net.minecraft.item.TridentItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.raaqir.raaqirmod.RaaqirsMod;
@@ -37,11 +38,14 @@ public static final Item VIBRANIUM = registrItem("vibranium",
 public static final Item VIBRANIUM_SWORD = registrItem("vibranium_sword",
             new ModVibSwordItem(ModToolMaterials.PURE_VIBRANIUM, 10, 2f, new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
 
+public static final Item BESKAR_SWORD = registrItem("beskar_sword",
+            new ModBeskarSwordItem(ModToolMaterials.BESKAR, 12, 3f, new FabricItemSettings().group(ModItemGroup.BESKAR)));
+
 public static final Item VIBRANIUM_PICKAXE = registrItem("vibranium_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.PURE_VIBRANIUM, 7, 0f,  new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
+            new ModPickaxeItem(ModToolMaterials.PURE_VIBRANIUM, 7, 1f,  new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
 
 public static final Item VIBRANIUM_AXE = registrItem("vibranium_axe",
-            new ModAxeItem(ModToolMaterials.PURE_VIBRANIUM, 13, 1f, new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
+            new ModAxeItem(ModToolMaterials.PURE_VIBRANIUM, 11, 1f, new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
 
  public static final Item VIBRANIUM_SHOVEL = registrItem("vibranium_shovel",
             new ShovelItem(ModToolMaterials.PURE_VIBRANIUM, 3, 1f, new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "raaqirmod:uru_ore"
+    },
+    "result": "raaqirmod:uru",
+    "experience": 2.1,
+    "cookingtime": 250
+}

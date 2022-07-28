@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_sword"
+    },
+    "addition": {
+        "item": "raaqirmod:beskar"
+    },
+    "result": {
+        "item": "raaqirmod:beskar_sword"
+    }
+}

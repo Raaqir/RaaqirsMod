@@ -5,13 +5,14 @@
   "item.raaqirmod.uru": "Uru",
   "item.raaqirmod.raw_beskar": "Raw Beskar",
   "item.raaqirmod.beskar": "Beksar",
-  "item.raaqirmod.dowsing_rod": "Dowsing Rod",
 
   "item.raaqirmod.vibranium_sword": "Vibranium Sword",
   "item.raaqirmod.vibranium_axe": "Vibranium Axe",
   "item.raaqirmod.vibranium_shovel": "Vibranium Shovel",
   "item.raaqirmod.vibranium_pickaxe": "Vibranium Pickaxe",
   "item.raaqirmod.vibranium_hoe": "Vibranium Hoe",
+  "item.raaqirmod.beskar_sword": "Beskar Sword",
+
   "item.raaqirmod.vibranium_helmet": "Vibranium Helmet",
   "item.raaqirmod.vibranium_chestplate": "Vibranium Chestplate",
   "item.raaqirmod.vibranium_leggings": "Vibranium Leggings",
@@ -19,7 +20,9 @@
 
   "block.raaqirmod.vibranium_block": "Block of Vibranium",
   "block.raaqirmod.uru_ore": "Uru Ore",
+  "block.raaqirmod.nether_uru_ore": "Nether Uru Ore",
   "block.raaqirmod.beskar_ore": "Beskar Ore",
+  "block.raaqirmod.nether_beskar_ore": "Nether Beskar Ore",
   "block.raaqirmod.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
   "block.raaqirmod.deepslate_uru_ore": "Deepslate Uru Ore",
   "block.raaqirmod.deepslate_beskar_ore": "Deepslate Beskar Ore",

@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     //todo Make and Register URU
-    URU(4, 6969, 15.0F, 10.0F, 50, () -> {
+    URU(4, 8780, 20.0F, 20.0F, 100, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.URU});
     }),
     BESKAR(4, 6969, 15.0F, 10.0F, 50, () -> {

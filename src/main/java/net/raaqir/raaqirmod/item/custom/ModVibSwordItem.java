@@ -28,7 +28,7 @@ public class ModVibSwordItem extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 25, 2), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 1), attacker);
         return super.postHit(stack, target, attacker);
     }
 
@@ -37,8 +37,7 @@ public class ModVibSwordItem extends SwordItem {
 
         //Adds the enchantment to item, when crafted(onCraft)
         stack.addEnchantment(Enchantments.UNBREAKING, 2);
-        stack.addEnchantment(Enchantments.MENDING, 1);
-        stack.addEnchantment(Enchantments.KNOCKBACK, 5);
+        stack.addEnchantment(Enchantments.KNOCKBACK, 1);
         super.onCraft(stack, world, player);
     }
 

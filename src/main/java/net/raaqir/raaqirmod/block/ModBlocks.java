@@ -29,7 +29,10 @@ public class ModBlocks {
     public static final Block URU_ORE =registerBlock("uru_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(4, 10)), ModItemGroup.URU);
-    public static final Block DEEPSLATE_uru_ORE =registerBlock("deepslate_uru_ore",
+    public static final Block DEEPSLATE_URU_ORE =registerBlock("deepslate_uru_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(4, 10)), ModItemGroup.URU);
+    public static final Block NETHER_URU_ORE =registerBlock("nether_uru_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(4, 10)), ModItemGroup.URU);
 
@@ -37,6 +40,9 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(4, 10)), ModItemGroup.BESKAR);
     public static final Block DEEPSLATE_BESKAR_ORE =registerBlock("deepslate_beskar_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+                    UniformIntProvider.create(4, 10)), ModItemGroup.BESKAR);
+    public static final Block NETHER_BESKAR_ORE =registerBlock("nether_beskar_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(4, 10)), ModItemGroup.BESKAR);
 
