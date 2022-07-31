@@ -13,6 +13,6 @@ public class CraftminRenderer extends GeoEntityRenderer<CraftminEntity> {
 
     @Override
     public Identifier getTextureResource(CraftminEntity instance) {
-        return new Identifier(RaaqirsMod.MOD_ID, "textures/enitiy/craftmin/craftmin.png");
+        return new Identifier(RaaqirsMod.MOD_ID, "textures/entity/craftmin/craftmin.png");
     }
 }

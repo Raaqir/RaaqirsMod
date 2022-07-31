@@ -13,6 +13,6 @@ public class ModEntities {
     public static final EntityType<CraftminEntity> CRAFTMIN = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(RaaqirsMod.MOD_ID, "craftmin"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, CraftminEntity::new)
-                    .dimensions(EntityDimensions.fixed(0.8f, 0.6f)).build());
+                    .dimensions(EntityDimensions.fixed(1.0f, 1.2f)).build());
 
 }

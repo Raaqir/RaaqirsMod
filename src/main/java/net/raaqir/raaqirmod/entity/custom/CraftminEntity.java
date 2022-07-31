@@ -44,15 +44,14 @@ public class CraftminEntity extends AnimalEntity implements IAnimatable {
     public static DefaultAttributeContainer.Builder setAttributes() {
         return AnimalEntity.createMobAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 30.0D)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 8.0f)
-                .add(EntityAttributes.GENERIC_ATTACK_SPEED, 1.5f)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.4f);
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 6.0f)
+                .add(EntityAttributes.GENERIC_ATTACK_SPEED, 1.0f)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.2f);
     }
 
     protected void initGoals() {
-        this.goalSelector.add(1, new EscapeDangerGoal(this, 1.25));
-        this.goalSelector.add(1, new WanderAroundPointOfInterestGoal(this, 0.75f, false));
-        this.goalSelector.add(4, new TemptGoal(this, 1.2, Ingredient.ofItems(new ItemConvertible[]{Items.CARROT_ON_A_STICK}), false));
+        this.goalSelector.add(1, new EscapeDangerGoal(this, 1.0));
+        this.goalSelector.add(1, new WanderAroundPointOfInterestGoal(this, 0.50f, false));
         this.goalSelector.add(6, new WanderAroundFarGoal(this, 1.0));
         this.goalSelector.add(7, new LookAtEntityGoal(this, PlayerEntity.class, 6.0F));
         this.goalSelector.add(8, new LookAroundGoal(this));
