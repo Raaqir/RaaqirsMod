@@ -28,7 +28,7 @@ public class ModVibSwordItem extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 10, 1), attacker);
         return super.postHit(stack, target, attacker);
     }
 

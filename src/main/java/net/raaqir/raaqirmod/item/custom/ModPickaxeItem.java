@@ -21,7 +21,6 @@ public class ModPickaxeItem extends PickaxeItem {
     @Override
     public void onCraft(ItemStack stack, World world, PlayerEntity player) {
         stack.addEnchantment(Enchantments.UNBREAKING, 2);
-        stack.addEnchantment(Enchantments.MENDING, 1);
         super.onCraft(stack, world, player);
     }
 

@@ -4,8 +4,12 @@ import net.fabricmc.api.ModInitializer;
 import net.raaqir.raaqirmod.block.ModBlocks;
 import net.raaqir.raaqirmod.item.ModItems;
 import net.raaqir.raaqirmod.util.ModLootTableModifier;
+import net.raaqir.raaqirmod.util.ModRegistries;
+import net.raaqir.raaqirmod.world.feature.ModConfiguredFeatures;
+import net.raaqir.raaqirmod.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib3.GeckoLib;
 
 public class RaaqirsMod implements ModInitializer {
 	public static final String MOD_ID = "raaqirmod";
@@ -17,10 +21,18 @@ public class RaaqirsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModRegistries.registerModStuff();
+
 		ModLootTableModifier.modifyLootTables();
+
+		ModOreGeneration.generateOre();
+
+		GeckoLib.initialize();
 
 	}
 }

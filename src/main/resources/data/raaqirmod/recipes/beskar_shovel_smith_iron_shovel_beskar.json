@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:iron_shovel"
+    },
+    "addition": {
+        "item": "raaqirmod:beskar"
+    },
+    "result": {
+        "item": "raaqirmod:beskar_shovel"
+    }
+}
