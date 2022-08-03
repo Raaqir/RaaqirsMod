@@ -39,7 +39,11 @@
   "block.raaqirmod.deepslate_uru_ore": "Deepslate Uru Ore",
   "block.raaqirmod.deepslate_beskar_ore": "Deepslate Beskar Ore",
   "block.raaqirmod.vibranium_ore": "Vibranium Ore",
+
+
   "block.raaqirmod.regen_block": "Regen Block",
+  "block.raaqirmod.power_extractor": "Power Extractor",
+
 
   "itemGroup.raaqirmod.vibranium": "Vibranium Tab",
   "itemGroup.raaqirmod.uru": "Uru Tab",

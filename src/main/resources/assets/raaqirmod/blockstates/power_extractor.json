@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "raaqirmod:block/power_extractor" },
+    "facing=east": {"model": "raaqirmod:block/power_extractor", "y": 90},
+    "facing=south": {"model": "raaqirmod:block/power_extractor", "y": 180},
+    "facing=west":   {"model": "raaqirmod:block/power_extractor", "y": 270}
+  }
+}

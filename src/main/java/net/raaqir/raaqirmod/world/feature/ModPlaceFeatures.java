@@ -11,23 +11,23 @@ import java.util.List;
 public class ModPlaceFeatures {
 
     public static final RegistryEntry<PlacedFeature> VIBRANIUM_ORE_PLACED = PlacedFeatures.register("vibranium_ore_placed",
-            ModConfiguredFeatures.VIBRANIUM_ORE, modifiersWithCount(5,
-                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+            ModConfiguredFeatures.VIBRANIUM_ORE, modifiersWithCount(6,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(40), YOffset.belowTop(120))));
     public static final RegistryEntry<PlacedFeature> BESKAR_ORE_PLACED = PlacedFeatures.register("beskar_ore_placed",
-            ModConfiguredFeatures.BESKAR_ORE, modifiersWithCount(3,
-                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+            ModConfiguredFeatures.BESKAR_ORE, modifiersWithCount(4,
+                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 
     public static final RegistryEntry<PlacedFeature> NETHER_BESKAR_ORE_PLACED = PlacedFeatures.register("nether_beskar_ore_placed",
-            ModConfiguredFeatures.NETHER_BESKAR_ORE, modifiersWithCount(7,
-                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+            ModConfiguredFeatures.NETHER_BESKAR_ORE, modifiersWithCount(5,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(120))));
 
     public static final RegistryEntry<PlacedFeature> URU_ORE_PLACED = PlacedFeatures.register("uru_ore_placed",
-            ModConfiguredFeatures.URU_ORE, modifiersWithCount(2,
-                    HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+            ModConfiguredFeatures.URU_ORE, modifiersWithCount(3,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 
     public static final RegistryEntry<PlacedFeature> NETHER_URU_ORE_PLACED = PlacedFeatures.register("nether_uru_ore_placed",
             ModConfiguredFeatures.NETHER_URU_ORE, modifiersWithCount(5,
-                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(120))));
 
 
 

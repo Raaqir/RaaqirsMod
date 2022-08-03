@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.raaqir.raaqirmod.RaaqirsMod;
+import net.raaqir.raaqirmod.block.custom.PowerExtractorBlock;
 import net.raaqir.raaqirmod.block.custom.RegenBlock;
 import net.raaqir.raaqirmod.item.ModItemGroup;
 
@@ -50,6 +51,14 @@ public class ModBlocks {
 
     public static final Block REGEN_BLOCK =registerBlock("regen_block",
             new RegenBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroup.VIBRANIUM);
+
+
+
+    public static final Block POWER_EXTRACTOR =registerBlock("power_extractor",
+            new PowerExtractorBlock(FabricBlockSettings.of(Material.METAL).nonOpaque()), ModItemGroup.URU);
+
+
+
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

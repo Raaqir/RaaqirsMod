@@ -31,17 +31,17 @@ public class ModConfiguredFeatures {
 
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> VIBRANIUM_ORE =
-            ConfiguredFeatures.register("vibranium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_VIBRANIUM_ORES, 4));
+            ConfiguredFeatures.register("vibranium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_VIBRANIUM_ORES, 6));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> BESKAR_ORE =
-            ConfiguredFeatures.register("beskar_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_BESKAR_ORES, 4));
+            ConfiguredFeatures.register("beskar_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_BESKAR_ORES, 3));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> URU_ORE =
-            ConfiguredFeatures.register("uru_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_URU_ORES, 4));
+            ConfiguredFeatures.register("uru_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_URU_ORES, 3));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_BESKAR_ORE =
             ConfiguredFeatures.register("nether_beskar_ore", Feature.ORE, new OreFeatureConfig(NETHER_BESKAR_ORES, 4));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_URU_ORE =
-            ConfiguredFeatures.register("nether_uru_ore", Feature.ORE, new OreFeatureConfig(NETHER_URU_ORES, 4));
+            ConfiguredFeatures.register("nether_uru_ore", Feature.ORE, new OreFeatureConfig(NETHER_URU_ORES, 5));
 
 
 
