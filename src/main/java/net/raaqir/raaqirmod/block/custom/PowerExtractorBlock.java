@@ -45,11 +45,10 @@ private static final VoxelShape SHAPE = Stream.of(
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        switch (state.get(FACING)) {
-            default:
-                return SHAPE;
-        }
+        return super.getOutlineShape(state, world, pos, context);
     }
+
+
 
     @Nullable
     @Override
