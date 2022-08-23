@@ -98,6 +98,24 @@ public static final Item VIBRANIUM_AXE = registrItem("vibranium_axe",
  public static final Item VIBRANIUM_BOOTS = registrItem("vibranium_boots",
             new ArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.VIBRANIUM)));
 
+
+ /// Uru Armor Items
+ public static final Item URU_HELMET = registrItem("uru_helmet",
+            new ArmorItem(ModArmorMaterials.URU, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.URU)));
+
+ public static final Item URU_CHESTPLATE = registrItem("uru_chestplate",
+            new ModArmorItem(ModArmorMaterials.URU, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.URU)));
+
+ public static final Item URU_LEGGINGS = registrItem("uru_leggings",
+            new ArmorItem(ModArmorMaterials.URU, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.URU)));
+
+
+ public static final Item URU_BOOTS = registrItem("uru_boots",
+            new ArmorItem(ModArmorMaterials.URU, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.URU)));
+
+
+
+/// Mob Spawn Egg
  public static final Item CRAFTMIN_SPAWN_EGG = registrItem("craftmin_spawn_egg",
             new SpawnEggItem(ModEntities.CRAFTMIN, 0xae0000, 0x23950c,
                     new FabricItemSettings().group(ModItemGroup.VIBRANIUM).maxCount(1)));

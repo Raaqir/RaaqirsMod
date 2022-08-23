@@ -12,10 +12,10 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    URU("uru", 66, new int[]{15, 18, 25, 8}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 6.0F, 0.1F, () -> {
+    URU("uru", 88, new int[]{18, 20, 30, 20}, 60, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8.0F, 2.4F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.URU});
     }),
-    BESKAR("beskar", 66, new int[]{15, 18, 25, 8}, 30, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 6.0F, 0.1F, () -> {
+    BESKAR("beskar", 66, new int[]{15, 18, 25, 8}, 40, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 6.0F, 1.6F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.BESKAR});
     }),
     VIBRANIUM("vibranium", 50, new int[]{10, 15, 15, 10}, 30, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 4.0F, 3.0F, () -> {
