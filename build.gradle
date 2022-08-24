@@ -32,7 +32,8 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
-	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.19:3.1.16'
+
+	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.19:3.1.17'
 
 }
 
@@ -45,6 +46,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
+
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
 }

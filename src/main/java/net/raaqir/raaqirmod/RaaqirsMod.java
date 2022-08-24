@@ -24,6 +24,7 @@ public class RaaqirsMod implements ModInitializer {
 		ModConfiguredFeatures.registerConfiguredFeatures();
 
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuff();
